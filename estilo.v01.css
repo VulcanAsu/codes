@@ -1011,7 +1011,7 @@ a.capitulo {
 span.cap-novo {
         height: 15px;
     position: absolute;
-    bottom: -16px;
+    bottom: -17px;
     left: -1px;
     font-size: 9px;
     font-weight: 600;
@@ -1023,7 +1023,9 @@ span.cap-novo {
     border: none;
     border-top: none;
 }
-
+div#lista_recentes {
+    padding: 6px;
+}
 
 .linha:nth-child(2n+1) {
     background: #00000047;
@@ -1072,7 +1074,7 @@ span.capa {
     display: inline-block;
     width: 52px;
     height: 52px;
-    position: relative;transition: all .2s;margin-top: 6px;
+    position: relative;transition: all .2s;margin-top: 6px;    filter: drop-shadow(1px 2px 3px black);
 }
 span.capa>img {
     border-radius: 50%;
@@ -1096,7 +1098,7 @@ div#lista_recentes .titulo,  .hora {
 }
 
 span.titulo {
-    width: 388px;
+    width: 338px;
     position: absolute;    top: 0;       margin-left: 8px;
 }
 
@@ -1106,7 +1108,7 @@ a.indice {
 }
 
 span.nacionalidade {
-    width: 250px;
+    width: 236px;
     font-size: 12px;
 }
 
@@ -1118,7 +1120,7 @@ span.capitulos {
 }
 
 .linha:hover a.indice span.capa {
-    transform: scale(1.2);
+    transform: scale(1.4);filter: drop-shadow(2px 4px 6px black);
 }
 
 span.equipe {
@@ -1151,7 +1153,7 @@ span.funcao {
 }
 span.hora {
     font-size: 13px;
-    text-shadow: 1px 2px 2px black;width: 130px;
+    text-shadow: 1px 2px 2px black;width: 153px;
 }
 span.nacionalidade img {
     width: 25px;
