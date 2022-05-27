@@ -546,7 +546,7 @@ input[type=radio] {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 5000px;
   height: 90px;
   background: url(https://vulcannovel.com.br/wp-content/uploads/2022/04/ondinha2.png);
   background-size: 1000px 100px
@@ -584,7 +584,7 @@ input[type=radio] {
     transform: translateX(0);
   }
   100%{
-   transform: translateX(1000px);
+   transform: translateX(70%);
   }
 }
 #estrelinhas {
@@ -633,7 +633,7 @@ input[type=radio] {
    transform: translateX(0);
   }
   100%{
-   transform: translateX(-1000px);
+   transform: translateX(-70%);
   }
 }
 
