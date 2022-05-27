@@ -581,10 +581,10 @@ input[type=radio] {
 }
 @keyframes ondinha{
   0%{
-    background-position-x: 0px; 
+    transform: translateX(0);
   }
   100%{
-    background-position-x: 1000px; 
+   transform: translateX(1000px);
   }
 }
 #estrelinhas {
@@ -630,10 +630,10 @@ input[type=radio] {
 
 @keyframes ondinha2{
   0%{
-    background-position-x: 0px; 
+   transform: translateX(0);
   }
   100%{
-    background-position-x: -1000px; 
+   transform: translateX(-1000px);
   }
 }
 
