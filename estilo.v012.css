@@ -1,3 +1,9 @@
+/**
+ * Failed to minify the file using clean-css v5.3.0. Serving the original version.
+ * Original file: /gh/VulcanAsu/codes@master/estilo.v011.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
 a {
   text-decoration: none;
 }
@@ -546,34 +552,34 @@ input[type=radio] {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 9000px;
   height: 90px;
   background: url(https://vulcannovel.com.br/wp-content/uploads/2022/04/ondinha2.png);
   background-size: 1000px 100px
 }
  
 .ondinha1{
-  animation: ondinha 30s linear infinite;
+  animation: ondinha 60s linear infinite;
   z-index: 1000;
   animation-delay: 0s;
   bottom: 0;
 }
 .ondinha2{
-  animation: ondinha2 15s linear infinite;
+  animation: ondinha2 85s linear infinite;
   z-index: 999;
   filter: brightness(0.8);
   animation-delay: -5s;
   bottom: 10px;
 }
 .ondinha3{
-  animation: ondinha 30s linear infinite;
+  animation: ondinha 40s linear infinite;
   z-index: 998;
     filter: brightness(0.7);
   animation-delay: -2s;
   bottom: 15px;
 }
 .ondinha4{
-  animation: ondinha2 5s linear infinite;
+  animation: ondinha2 55s linear infinite;
   z-index: 997;
   filter: brightness(0.6);
   animation-delay: -5s;
@@ -581,10 +587,13 @@ input[type=radio] {
 }
 @keyframes ondinha{
   0%{
-    background-position-x: 0px; 
+    transform: translateX(-50px)
+  }
+  50%{
+    transform: translateX(-1000px); 
   }
   100%{
-    background-position-x: 1000px; 
+    transform: translateX(-50px); 
   }
 }
 #estrelinhas {
@@ -629,11 +638,14 @@ input[type=radio] {
 }
 
 @keyframes ondinha2{
-  0%{
-    background-position-x: 0px; 
+ 0%{
+    transform: translateX(0)
+  }
+  50%{
+    transform: translateX(-2000px); 
   }
   100%{
-    background-position-x: -1000px; 
+    transform: translateX(0); 
   }
 }
 
