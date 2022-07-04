@@ -559,27 +559,27 @@ input[type=radio] {
 }
  
 .ondinha1{
-  animation: ondinha 60s linear infinite;
+  animation: ondinha 60s cubic-bezier(0.37, 0.01, 0.62, 1.08) infinite;
   z-index: 1000;
   animation-delay: 0s;
   bottom: 0;
 }
 .ondinha2{
-  animation: ondinha2 85s linear infinite;
+  animation: ondinha2 85s cubic-bezier(0.37, 0.01, 0.62, 1.08) infinite;
   z-index: 999;
   filter: brightness(0.8);
   animation-delay: -5s;
   bottom: 10px;
 }
 .ondinha3{
-  animation: ondinha 40s linear infinite;
+  animation: ondinha 40s cubic-bezier(0.37, 0.01, 0.62, 1.08) infinite;
   z-index: 998;
     filter: brightness(0.7);
   animation-delay: -2s;
   bottom: 15px;
 }
 .ondinha4{
-  animation: ondinha2 55s linear infinite;
+  animation: ondinha2 55s cubic-bezier(0.37, 0.01, 0.62, 1.08) infinite;
   z-index: 997;
   filter: brightness(0.6);
   animation-delay: -5s;
