@@ -655,7 +655,7 @@ input[type=radio] {
     transform: translatex(0);
 }
 .bloco_slide.ativo {
-    opacity: .5;
+    opacity: .9;
 }i.far.fa-eye {
     margin: 0 4px;
 }
