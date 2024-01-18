@@ -1045,6 +1045,17 @@ div#tela-celular {
     margin: initial;
 }
 
+.Tela.t-brosa {
+    background: #101010;
+    --border-width: 1px;
+    border-radius: 8px;
+    margin: initial;
+}
+
+.Tela.t-brosa::after {
+    background: #e784ff;
+}
+
 .Tela.t-escura::after,
 .Tela.t-preta::after {
     background: #84e9ff;
