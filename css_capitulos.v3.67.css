@@ -25,7 +25,7 @@
 }
 
 :root {
-    --fundo: 19px;
+    --: 19px;
     --tela: block;
     --lgr: 20px;
     --brdr: 50%;
@@ -43,7 +43,7 @@ span.restaurar {
     font-size: 18px;cursor: pointer; display:none;
 }
 .Person div#Conteudo_cap ::selection {
-    color: var(--corFundo);
+    color: var(--cor);
     background: var(--corFonte);
 }
 
@@ -899,13 +899,13 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo {
+.Tela.t- {
    background: #171919;
     color: white;
     text-shadow: 0 0 1px black, 2px 2px 2px black;
 }
 
-.Tela.t-fundo::after {
+.Tela.t-::after {
          background: linear-gradient(
 30deg
 ,#a17400,#fff38c,#a17400,#fff38c,#a17400,#fff38c,#a17400,#fff38c);
@@ -913,7 +913,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.dois::after {
+.Tela.t-.dois::after {
     background: linear-gradient( 
 30deg
  ,#4caf50,#0c590a,#4caf50,#0c590a,#4caf50,#0c590a,#4caf50,#0c590a);
@@ -921,7 +921,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.tres::after {
+.Tela.t-.tres::after {
     background: linear-gradient( 
 30deg
  ,#91150c,#fb2010,#91150c,#fb2010,#91150c,#fb2010,#91150c,#fb2010);
@@ -929,7 +929,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.qua::after {
+.Tela.t-.qua::after {
     background: linear-gradient( 
 30deg
  ,#831041,#fb1089,#831041,#fb1089,#831041,#fb1089,#831041,#fb1089);
@@ -937,21 +937,21 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.cin::after {
+.Tela.t-.cin::after {
     background: linear-gradient( 
 30deg
  ,#176f97,#20aded,#176f97,#20aded,#176f97,#20aded,#176f97,#20aded);
     background-size: 300% 300%;
     background-position: 0 50%;
 }
-.Tela.t-fundo.seis::after {
+.Tela.t-.seis::after {
     background: linear-gradient( 
 30deg
  ,#482a7d,#8f54f7,#482a7d,#8f54f7,#482a7d,#8f54f7,#482a7d,#8f54f7);
     background-size: 300% 300%;
     background-position: 0 50%;
 }
-.Tela.t-fundo.sete::after {
+.Tela.t-.sete::after {
     background: linear-gradient( 
 30deg
  ,#bdb467,#fff38a,#bdb467,#fff38a,#bdb467,#fff38a,#bdb467,#fff38a);
@@ -959,14 +959,14 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.oito::after {
+.Tela.t-.oito::after {
     background: linear-gradient( 
 30deg
  ,#459d97,#a9fbf6,#459d97,#a9fbf6,#459d97,#a9fbf6,#459d97,#a9fbf6);
     background-size: 300% 300%;
     background-position: 0 50%;
 }
-.Tela.t-fundo.nove::after {
+.Tela.t-.nove::after {
     background: linear-gradient( 
 30deg
  ,#bb3910,#ff4f17,#bb3910,#ff4f17,#bb3910,#ff4f17,#bb3910,#ff4f17);
@@ -974,7 +974,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.dez::after {
+.Tela.t-.dez::after {
     background: linear-gradient( 
 30deg
  ,#930c97,#f917ff,#930c97,#f917ff,#930c97,#f917ff,#930c97,#f917ff);
@@ -982,14 +982,14 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.onze::after {
+.Tela.t-.onze::after {
     background-image: linear-gradient( 
 60deg
  , #cdcaca, #171919, #cdcaca, #171919, #cdcaca, #171919, #cdcaca, #17191900);
         background-size: 300% 300%;
     background-position: 0 50%;
 }
-.Tela.t-fundo.doze::after {
+.Tela.t-.doze::after {
     background-image: linear-gradient( 
 174deg
  , #ffffff, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000);
@@ -997,37 +997,37 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.treze::after {
+.Tela.t-.treze::after {
     background-image: url(/wp-content/themes/hello-child/divisores/glich.webp);
     background-size: 110% 250%;
     background-position: 0 22%;
     filter: drop-shadow(0px 0px 2px black) drop-shadow(-1px -1px 0px black);
 }
 
-.Terra .Tela.t-fundo {
+.Terra .Tela.t- {
     background: #ffd0a1;
 }
-.Fogo .Tela.t-fundo {
+.Fogo .Tela.t- {
     background: #ffc2c2;
 }
-.Agua .Tela.t-fundo {
+.Agua .Tela.t- {
     background: #98dfff;
     color: black;
     text-shadow: none;
     font-weight: 400;
 }
-.Ar .Tela.t-fundo {
+.Ar .Tela.t- {
     background: white;
     color: black;
     text-shadow: none;
     font-weight: 400;
 }
-.Person .Tela.t-fundo {
-    background: var(--corFundo);    color: var(--corFonte);   text-shadow: none;
+.Person .Tela.t- {
+    background: var(--cor);    color: var(--corFonte);   text-shadow: none;
     font-weight: 400;
 }
 
-.Terra .Tela.t-fundo::after, .Fogo .Tela.t-fundo::after,.Ar .Tela.t-fundo::after, .Agua .Tela.t-fundo::after  {
+.Terra .Tela.t-::after, .Fogo .Tela.t-::after,.Ar .Tela.t-::after, .Agua .Tela.t-::after  {
     filter: drop-shadow(2px 2px 2px black);
 }
 
@@ -1045,6 +1045,35 @@ div#tela-celular {
     margin: initial;
 }
 
+.Tela.t-escura-ii {
+    background: #101010;
+    --border-width: 1px;
+    border-radius: 8px;
+    margin: initial;
+}
+
+.Tela.t-escura-iii {
+    background: #101010;
+    --border-width: 1px;
+    border-radius: 8px;
+    margin: initial;
+}
+
+.Tela.t-escura-iv {
+    background: #101010;
+    --border-width: 1px;
+    border-radius: 8px;
+    margin: initial;
+}
+
+.Tela.t-escura-v {
+    background: #101010;
+    --border-width: 1px;
+    border-radius: 8px;
+    margin: initial;
+}
+
+
 .Tela.t-brosa {
     background: #101010;
     --border-width: 1px;
@@ -1052,11 +1081,24 @@ div#tela-celular {
     margin: initial;
 }
 
+.Tela.t-escura-ii::after {
+    background: #8700ff;
+}
+
+.Tela.t-escura-iii::after {
+    background: #02ff00;
+}
+.Tela.t-escura-iv::after {
+    background: #ff000a;
+}
+.Tela.t-escura-v::after {
+    background: #edff00;
+}
 .Tela.t-brosa::after {
     background: #e784ff;
 }
 
-.Tela.t-escura::after,
+.Tela.t-escura-iv::after,
 .Tela.t-preta::after {
     background: #84e9ff;
 }
@@ -1560,10 +1602,10 @@ body.Terra {
     background-color: #ffd0a1 !important;
 }
 
-.Terra  #fundoC>div,
-.Fogo  #fundoC>div,
-.Agua  #fundoC>div,
-.Ar  #fundoC>div,.Person #fundoC>div {
+.Terra  #C>div,
+.Fogo  #C>div,
+.Agua  #C>div,
+.Ar  #C>div,.Person #C>div {
     background-color: transparent !important;
 }
 
@@ -1892,15 +1934,15 @@ top: 4px}
 }.Person .elementor-grid-item>div span.elementor-share-btn__icon {
     background-color: var(--corFonte) !important;
 }.Person .elementor-grid-item>div span.elementor-share-btn__icon i {
-    color: var(--corFundo);
+    color: var(--cor);
 }
 /*###############################*/
 .Person .Progresso>div,.Person section#I-caps,.Person #I-caps input#is-search-input-119296  {
       filter: brightness(0.8);
-      background-color: var(--corFundo) !important;
+      background-color: var(--cor) !important;
 }
 body.Person{
-     background-color: var(--corFundo) !important;
+     background-color: var(--cor) !important;
 }
 
 .Person .zeus-scroll-button a.button,.Person .elementor-post-info *,.Person #Todos_c ,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
@@ -1913,12 +1955,12 @@ body.Person{
         box-shadow: inset 0 0 3px var(--corFonte)!important;
 }
 .Person .zeus-navbar-wrap {
-    background-color: var(--corFundo)!important;
+    background-color: var(--cor)!important;
     box-shadow: none!important;
     filter: grayscale(.3);
 }
 .Person .elementor-115617 .elementor-element.elementor-element-504c71dd ,.Person #Zeuss .zeus-navbar,.Person #Todos_c  {
-    background-color: var(--corFundo) !important;
+    background-color: var(--cor) !important;
 }
 .Person input#is-search-input-119296,.Person #Zeuss .zeus-navbar-wrap {
     border-color: var(--corFonte) !important;
@@ -1926,7 +1968,7 @@ body.Person{
 .Person .current-progress {
        background-image: linear-gradient(
 90deg
-, var(--corFundo) 0%, var(--corFonte) 100%) !important;
+, var(--cor) 0%, var(--corFonte) 100%) !important;
 }
 .Person #menuToggle span,.Person .elementor-post-navigation__separator-wrapper{
     background-color: var(--corFonte) !important
@@ -1940,11 +1982,11 @@ body.Person{
 }
 body.Person::-webkit-scrollbar-thumb {
     border-color: var(--corFonte);
-    background-color: var( --corFundo);
+    background-color: var( --cor);
 }
 body.Person::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 2px var(--corFonte);
-    background-color: var(--corFundo);
+    background-color: var(--cor);
 }
 #Titulo-pag {
     background: transparent !important;
@@ -2053,8 +2095,8 @@ span.aoTopo span {
     left: 50%;
     transform: translate(-50%, -50%);display: flex;    flex-wrap: wrap;    width: 90%;
 }
-#fundoErro{display:none;}
-#fundoErro.ativo, #fundoErro.confirmarErro {
+#Erro{display:none;}
+#Erro.ativo, #Erro.confirmarErro {
      display: block;
     position: fixed;
     top: 0;
@@ -2200,7 +2242,7 @@ input#escolherNick {
 }
 span.encontradoBusca {
     background: var(--corFonte);
-    color: var(--corFundo);
+    color: var(--cor);
 }
 
 div#ntsRodape > span[id] {
